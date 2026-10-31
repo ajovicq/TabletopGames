@@ -10,7 +10,8 @@ This repository contains a brief dataset on tabletop board games. It includes th
 - File formats used: JSON and CSV
 - License: GNU GPL
 - Data source: Handpicked data from boardgamegeek.com & boardgamefyi.com
-- Methodology: The data was normalized and processed in PostgreSQL and directly exported to JSON and CSV   
+- Methodology: The data was normalized and processed in PostgreSQL and directly exported to JSON and CSV
+- Note: This dataset is NOT complete, all the expansions or designers may not have been mentioned and the genres were arbitrarily assigned
 
 ## Dataset Attribute Descriptions
 - game_id: Sequentally assigned integers describing one tabletop game starting from 1 (one)
@@ -23,8 +24,8 @@ This repository contains a brief dataset on tabletop board games. It includes th
 - publisher: The main publisher responsible for publishing the original game (There can be many publishers for one game as there are localized versions that are published by separate local publishers, in this dataset only the original publisher is listed)
 - avg_rating: Average rating taken across multiple rating websites
 - genre_id: Sequentally assigned integers describing genres starting from 1 (one)
-- genre_name: Name of a tabletop game genre
-- expansions: Array containing multiple (or none) expansions that are released for a game
+- genre_name: Arbitrarily chosen most fitting genre of the tabletop game
+- expansions: Array containing multiple (or none) expansions that are released for a game (N.B. as not all games have expansions in the database, the columns of those games will instead be NULL)
 - expansion_id: Sequentally assigned integers describing an expansion starting from 1 (one)
 - expansion_name: Name of the tabletop game expansion
 - expansion_release_year: Year of release of the tabletop game expansion
