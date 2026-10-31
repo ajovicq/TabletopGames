@@ -1,0 +1,270 @@
+[
+  {
+    "game_id": 4,
+    "game_name": "Gloomhaven",
+    "release_year": 2017,
+    "min_players": 1,
+    "max_players": 4,
+    "recommended_min_age": 14,
+    "playtime_minutes": 60,
+    "publisher": "Cephalofair Games",
+    "avg_rating": 8.53,
+    "genre_id": 1,
+    "genre_name": "Strategy",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 3,
+        "expansion_name": "Isaac Childres"
+      }
+    ]
+  },
+  {
+    "game_id": 1,
+    "game_name": "Catan",
+    "release_year": 1995,
+    "min_players": 3,
+    "max_players": 4,
+    "recommended_min_age": 10,
+    "playtime_minutes": 60,
+    "publisher": "KOSMOS",
+    "avg_rating": 7.09,
+    "genre_id": 1,
+    "genre_name": "Strategy",
+    "expansions": [
+      {
+        "expansion_id": 1,
+        "expansion_name": "Catan: Cities & Knights",
+        "expansion_release_year": 1998
+      },
+      {
+        "expansion_id": 2,
+        "expansion_name": "Catan: Seafarers",
+        "expansion_release_year": 1997
+      },
+      {
+        "expansion_id": 4,
+        "expansion_name": "Catan: Traders & Barbarians",
+        "expansion_release_year": 2007
+      }
+    ],
+    "designers": [
+      {
+        "designer_id": 2,
+        "expansion_name": "Klaus Teuber"
+      }
+    ]
+  },
+  {
+    "game_id": 6,
+    "game_name": "Root",
+    "release_year": 2018,
+    "min_players": 2,
+    "max_players": 4,
+    "recommended_min_age": 14,
+    "playtime_minutes": 60,
+    "publisher": "Leder Games",
+    "avg_rating": 8.07,
+    "genre_id": 1,
+    "genre_name": "Strategy",
+    "expansions": [
+      {
+        "expansion_id": 6,
+        "expansion_name": "Root: The Underworld Expansion",
+        "expansion_release_year": 2020
+      },
+      {
+        "expansion_id": 7,
+        "expansion_name": "Root: The Riverfolk Expansion",
+        "expansion_release_year": 2018
+      },
+      {
+        "expansion_id": 8,
+        "expansion_name": "Root: The Marauder Expansion",
+        "expansion_release_year": 2022
+      },
+      {
+        "expansion_id": 9,
+        "expansion_name": "Root: The Clockwork Expansion",
+        "expansion_release_year": 2020
+      },
+      {
+        "expansion_id": 10,
+        "expansion_name": "Root: The Homeland Expansion",
+        "expansion_release_year": 2026
+      }
+    ],
+    "designers": [
+      {
+        "designer_id": 5,
+        "expansion_name": "Cole Wehrle"
+      }
+    ]
+  },
+  {
+    "game_id": 5,
+    "game_name": "Terraforming Mars",
+    "release_year": 2016,
+    "min_players": 1,
+    "max_players": 5,
+    "recommended_min_age": 12,
+    "playtime_minutes": 120,
+    "publisher": "FryxGames",
+    "avg_rating": 8.33,
+    "genre_id": 1,
+    "genre_name": "Strategy",
+    "expansions": [
+      {
+        "expansion_id": 11,
+        "expansion_name": "Terraforming Mars: Prelude",
+        "expansion_release_year": 2018
+      },
+      {
+        "expansion_id": 12,
+        "expansion_name": "Terraforming Mars: Colonies",
+        "expansion_release_year": 2018
+      }
+    ],
+    "designers": [
+      {
+        "designer_id": 4,
+        "expansion_name": "Jacob Fryxelius"
+      }
+    ]
+  },
+  {
+    "game_id": 9,
+    "game_name": "Pandemic",
+    "release_year": 2008,
+    "min_players": 2,
+    "max_players": 4,
+    "recommended_min_age": 9,
+    "playtime_minutes": 45,
+    "publisher": "Z-Man Games",
+    "avg_rating": 7.51,
+    "genre_id": 1,
+    "genre_name": "Strategy",
+    "expansions": [
+      {
+        "expansion_id": 3,
+        "expansion_name": "Pandemic: On the Brink",
+        "expansion_release_year": 2009
+      },
+      {
+        "expansion_id": 5,
+        "expansion_name": "Pandemic: State of Emergency",
+        "expansion_release_year": 2015
+      }
+    ],
+    "designers": [
+      {
+        "designer_id": 7,
+        "expansion_name": "Matt Leacock"
+      }
+    ]
+  },
+  {
+    "game_id": 7,
+    "game_name": "Wingspan",
+    "release_year": 2019,
+    "min_players": 1,
+    "max_players": 5,
+    "recommended_min_age": 10,
+    "playtime_minutes": 40,
+    "publisher": "Stonemaier Games",
+    "avg_rating": 7.99,
+    "genre_id": 2,
+    "genre_name": "Family",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 9,
+        "expansion_name": "Elizabeth Hargrave"
+      }
+    ]
+  },
+  {
+    "game_id": 3,
+    "game_name": "Clue",
+    "release_year": 1949,
+    "min_players": 2,
+    "max_players": 6,
+    "recommended_min_age": 8,
+    "playtime_minutes": 45,
+    "publisher": "Hasbro",
+    "avg_rating": 5.69,
+    "genre_id": 2,
+    "genre_name": "Family",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 1,
+        "expansion_name": "Anthony Pratt"
+      }
+    ]
+  },
+  {
+    "game_id": 2,
+    "game_name": "Monopoly",
+    "release_year": 1935,
+    "min_players": 2,
+    "max_players": 8,
+    "recommended_min_age": 8,
+    "playtime_minutes": 60,
+    "publisher": "Parker Brothers",
+    "avg_rating": 4.37,
+    "genre_id": 2,
+    "genre_name": "Family",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 10,
+        "expansion_name": "Charles Darrow"
+      },
+      {
+        "designer_id": 11,
+        "expansion_name": "Elizabeth Magie"
+      }
+    ]
+  },
+  {
+    "game_id": 8,
+    "game_name": "Codenames",
+    "release_year": 2015,
+    "min_players": 2,
+    "max_players": 8,
+    "recommended_min_age": 10,
+    "playtime_minutes": 15,
+    "publisher": "Czech Games Edition (CGE)",
+    "avg_rating": 7.52,
+    "genre_id": 3,
+    "genre_name": "Party",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 6,
+        "expansion_name": "Vlaada Chvátil"
+      }
+    ]
+  },
+  {
+    "game_id": 10,
+    "game_name": "Bomb Busters",
+    "release_year": 2024,
+    "min_players": 2,
+    "max_players": 5,
+    "recommended_min_age": 10,
+    "playtime_minutes": 30,
+    "publisher": "Cocktail Games",
+    "avg_rating": 8.03,
+    "genre_id": 3,
+    "genre_name": "Party",
+    "expansions": [],
+    "designers": [
+      {
+        "designer_id": 8,
+        "expansion_name": "Hisashi Hayashi"
+      }
+    ]
+  }
+]

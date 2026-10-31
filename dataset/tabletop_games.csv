@@ -1,0 +1,20 @@
+"game_id","genre_id","game_name","release_year","min_players","max_players","recommended_min_age","playtime_minutes","publisher","avg_rating","genre_name","designer_id","designer_name","expansion_id","expansion_name","expansion_release_year"
+3,2,"Clue",1949,2,6,8,45,"Hasbro",5.69,"Family",1,"Anthony Pratt",NULL,NULL,NULL
+1,1,"Catan",1995,3,4,10,60,"KOSMOS",7.09,"Strategy",2,"Klaus Teuber",4,"Catan: Traders & Barbarians",2007
+1,1,"Catan",1995,3,4,10,60,"KOSMOS",7.09,"Strategy",2,"Klaus Teuber",2,"Catan: Seafarers",1997
+1,1,"Catan",1995,3,4,10,60,"KOSMOS",7.09,"Strategy",2,"Klaus Teuber",1,"Catan: Cities & Knights",1998
+4,1,"Gloomhaven",2017,1,4,14,60,"Cephalofair Games",8.53,"Strategy",3,"Isaac Childres",NULL,NULL,NULL
+5,1,"Terraforming Mars",2016,1,5,12,120,"FryxGames",8.33,"Strategy",4,"Jacob Fryxelius",12,"Terraforming Mars: Colonies",2018
+5,1,"Terraforming Mars",2016,1,5,12,120,"FryxGames",8.33,"Strategy",4,"Jacob Fryxelius",11,"Terraforming Mars: Prelude",2018
+6,1,"Root",2018,2,4,14,60,"Leder Games",8.07,"Strategy",5,"Cole Wehrle",10,"Root: The Homeland Expansion",2026
+6,1,"Root",2018,2,4,14,60,"Leder Games",8.07,"Strategy",5,"Cole Wehrle",9,"Root: The Clockwork Expansion",2020
+6,1,"Root",2018,2,4,14,60,"Leder Games",8.07,"Strategy",5,"Cole Wehrle",8,"Root: The Marauder Expansion",2022
+6,1,"Root",2018,2,4,14,60,"Leder Games",8.07,"Strategy",5,"Cole Wehrle",7,"Root: The Riverfolk Expansion",2018
+6,1,"Root",2018,2,4,14,60,"Leder Games",8.07,"Strategy",5,"Cole Wehrle",6,"Root: The Underworld Expansion",2020
+8,3,"Codenames",2015,2,8,10,15,"Czech Games Edition (CGE)",7.52,"Party",6,"Vlaada Chvátil",NULL,NULL,NULL
+9,1,"Pandemic",2008,2,4,9,45,"Z-Man Games",7.51,"Strategy",7,"Matt Leacock",5,"Pandemic: State of Emergency",2015
+9,1,"Pandemic",2008,2,4,9,45,"Z-Man Games",7.51,"Strategy",7,"Matt Leacock",3,"Pandemic: On the Brink",2009
+10,3,"Bomb Busters",2024,2,5,10,30,"Cocktail Games",8.03,"Party",8,"Hisashi Hayashi",NULL,NULL,NULL
+7,2,"Wingspan",2019,1,5,10,40,"Stonemaier Games",7.99,"Family",9,"Elizabeth Hargrave",NULL,NULL,NULL
+2,2,"Monopoly",1935,2,8,8,60,"Parker Brothers",4.37,"Family",10,"Charles Darrow",NULL,NULL,NULL
+2,2,"Monopoly",1935,2,8,8,60,"Parker Brothers",4.37,"Family",11,"Elizabeth Magie",NULL,NULL,NULL
