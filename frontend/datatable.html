@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabletop Games Table</title>
+</head>
+<body>
+    <h1>Tabletop Games Table</h1>
+    <p><a href="index.html">Index page</a></p>
+
+    <form id="search">
+        <span>Search:</span>
+        <input type="text" id="searchText">
+
+        <span>in</span>
+        <select id="searchSelect">
+            <option value="all">All fields</option>
+            <option value="game_id">Game ID</option>
+            <option value="game_name">Game name</option>
+            <option value="release_year">Release year</option>
+            <option value="min_players">Min players</option>
+            <option value="max_players">Max players</option>
+            <option value="recommended_min_age">Min age</option>
+            <option value="playtime_minutes">Playtime (min)</option>
+            <option value="publisher">Publisher</option>
+            <option value="avg_rating">Average rating</option>
+            <option value="genre_name">Genre</option>
+            <option value="designer_name">Designer</option>
+            <option value="expansion_name">Expansion</option>
+            <option value="expansion_release_year">Expansion year</option>
+        </select>
+
+        <button type="submit">Search</button>
+    </form>
+
+    <table id="gamesTable">
+        <thead>
+            <tr>
+                <th>Game ID</th>
+                <th>Game name</th>
+                <th>Release year</th>
+                <th>Min players</th>
+                <th>Max players</th>
+                <th>Min age</th>
+                <th>Playtime (min)</th>
+                <th>Publisher</th>
+                <th>Avg rating</th>
+                <th>Genre</th>
+                <th>Designer</th>
+                <th>Expansion</th>
+                <th>Expansion year</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <p>
+        <button type="button" id="downloadCsv">Download CSV</button>
+        <button type="button" id="downloadJson">Download JSON</button>
+    </p>
+
+    <script src="datatable.js"></script>
+</body>
+</html>

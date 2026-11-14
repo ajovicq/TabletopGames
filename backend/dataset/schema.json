@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://localhost:3000/dataset/schema.json",
+  "title": "TabletopGames",
+  "type": "array",
+  "description": "A brief dataset on tabletop board games. It includes the names of the games, the release date, main genre etc.",
+  "items": {
+	"title": "Tabletop game",
+	"description": "A single tabletop game, with its genre, designers, expansions, etc.",
+    "type": "object",
+    "properties": {
+      "game_id": {
+        "type": "integer",
+		"title": "Game ID",
+		"description": "Sequentially assigned integers describing one tabletop game starting from 1 (one)"
+      },
+      "game_name": {
+        "type": "string",
+		"title": "Game name",
+		"description": "Title of the board game used at the time of initial publishing"
+      },
+      "release_year": {
+        "type": "integer",
+		"title": "Release year",
+		"description": "Original year of release of the board game"
+      },
+      "min_players": {
+        "type": "integer",
+		"title": "Minimum players",
+		"description": "Minimum amount of players needed to play the game"
+      },
+      "max_players": {
+        "type": ["integer", "null"],
+		"title": "Maximum players",
+		"description": "Maximum amount of players allowed to play the game (if value is NULL then there is no maximum limit)"
+      },
+      "recommended_min_age": {
+        "type": "integer",
+		"title": "Recommended minimum age",
+		"description": "Minimum age recommended to play this game"
+      },
+      "playtime_minutes": {
+        "type": "integer",
+		"title": "Playtime in minutes",
+		"description": "Minimum estimated time to play one session"
+      },
+      "publisher": {
+        "type": "string",
+		"title": "Publisher",
+		"description": "The main publisher responsible for publishing the original game (only the original publisher is listed)"
+      },
+      "avg_rating": {
+        "type": "number",
+		"title": "Average rating",
+		"description": "Average rating taken across multiple rating websites"
+      },
+      "genre_id": {
+        "type": "integer",
+		"title": "Genre ID",
+		"description": "Sequentially assigned integers describing genres starting from 1 (one)"
+      },
+      "genre_name": {
+        "type": "string",
+		"title": "Genre name",
+		"description": "Arbitrarily chosen most fitting genre of the tabletop game"
+      },
+      "expansions": {
+        "type": ["array","null"],
+		"title": "Expansions",
+		"description": "Array containing multiple (or none) expansions that are released for a game (NULL if the game has no expansions)",
+        "items": {
+          "type": "object",
+		  "title": "Expansion",
+		  "description": "One expansion of a tabletop game",
+          "properties": {
+            "expansion_id": {
+              "type": "integer",
+			  "title": "Expansion ID",
+			  "description": "Sequentially assigned integers describing an expansion starting from 1 (one)"
+            },
+            "expansion_name": {
+              "type": "string",
+			  "title": "Expansion name",
+			  "description": "Name of the tabletop game expansion"
+            },
+            "expansion_release_year": {
+              "type": "integer",
+			  "title": "Expansion release year",
+			  "description": "Year of release of the tabletop game expansion"
+            }
+          },
+          "required": [
+            "expansion_id",
+            "expansion_name",
+            "expansion_release_year"
+          ]
+        }
+      },
+      "designers": {
+        "type": "array",
+		"title": "Designers",
+		"description": "Array containing one or more designers that are credited for the original tabletop game (does not include expansions)",
+        "items": {
+          "type": "object",
+		  "title": "Designer",
+		  "description": "One designer of a tabletop game",
+          "properties": {
+            "designer_id": {
+              "type": "integer",
+			  "title": "Designer ID",
+			  "description": "Sequentially assigned integers describing a designer starting from 1 (one)"
+            },
+            "designer_name": {
+              "type": "string",
+			  "title": "Designer name",
+			  "description": "Full name of a designer"
+            }
+          },
+          "required": [
+            "designer_id",
+            "designer_name"
+          ]
+        }
+      }
+    },
+    "required": [
+      "game_id",
+      "game_name",
+      "release_year",
+      "min_players",
+      "max_players",
+      "recommended_min_age",
+      "playtime_minutes",
+      "publisher",
+      "avg_rating",
+      "genre_id",
+      "genre_name",
+      "expansions",
+      "designers"
+    ]
+  }
+}

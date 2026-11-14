@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antonio Jović">
+    <meta name="description" content="This website contains a brief dataset on tabletop board games. It includes the names of the games, the release date, main genre etc.">
+    <title>Tabletop Games Dataset</title>
+</head>
+<body>
+    <h1>Tabletop dataset</h1>
+    <h2>Description</h2>
+    <p>This website contains a brief dataset on tabletop board games. It includes the names of the games, the release date, main genre etc.</p>
+    <ul>
+        <li>Author: Antonio Jović</li>
+        <li>Version: 2.0</li>
+        <li>Data language: English</li>
+        <li>License: GNU GPL</li>
+        <li>Last updated: 30th October 2026</li>
+        <li>File formats: JSON and CSV</li>
+    </ul>
+    <h2>Attributes</h2>
+    <ul>
+        <li>game_id: Sequentally assigned integers describing one tabletop game starting from 1 (one)</li>
+        <li>game_name: Title of the board game used at the time of initial publishing</li>
+        <li>release_year: Original year of release of the board game</li>
+        <li>min_players: Minimum amount of players needed to play the game</li>
+        <li>max_players: Maximum amount of players allowed to play the game (if value is NULL then there is no maximum limit)</li>
+        <li>recommended_min_age: Minimum age recommended to play the game</li>
+        <li>playtime_minutes: Minimum estimated time to play one session </li>
+        <li>publisher: The main publisher responsible for publishing the original game (There can be many publishers for one game as there are localized versions that are published by separate local publishers, in this dataset only the original publisher is listed)</li>
+        <li>avg_rating: Average rating taken across multiple rating websites</li>
+        <li>genre_id: Sequentally assigned integers describing genres starting from 1 (one)</li>
+        <li>genre_name: Arbitrarily chosen most fitting genre of the tabletop game</li>
+        <li>expansions: Array containing multiple (or none) expansions that are released for a game (N.B. as not all games have expansions in the database, the columns of those games will instead be NULL)</li>
+        <li>expansion_id: Sequentally assigned integers describing an expansion starting from 1 (one)</li>
+        <li>>expansion_name: Name of the tabletop game expansion</li>
+        <li>expansion_release_year: Year of release of the tabletop game expansion</li>
+        <li>designers: Array containing one or more designers that are credited for the original tabletop game (does not include expansions)</li>
+        <li>designer_id: Sequentally assigned integers describing a designer starting from 1 (one)</li>
+        <li>designer_name: Full name of a designer</li>
+    </ul>
+    <h2>Download files</h2>
+    <ul>
+        <li><a href="dataset/tabletop_games.json">tabletop_games.json</a></li>
+        <li><a href="dataset/tabletop_games.csv">tabletop_games.csv</a></li>
+    </ul>
+
+    <h2>Browse data</h2>
+    <p><a href="datatable.html">View data as a table</a></p>
+
+</body>
+</html>

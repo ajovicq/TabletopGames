@@ -1,10 +1,10 @@
 # TabletopGames
 
 ## Brief Repository Description
-This repository contains a brief dataset on tabletop board games. It includes the names of the games, the release date, main genre etc... A more detailed description of the dataset can be found below. 
+This repository contains a brief dataset on tabletop board games. It includes the names of the games, the release date, main genre etc. A more detailed description of the dataset can be found below. 
 
 - Author: Antonio Jović
-- Version: 1.0
+- Version: 2.0
 - Data language: English
 - Last updated: 30th October 2026
 - File formats used: JSON and CSV
